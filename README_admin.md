@@ -14,7 +14,7 @@ sudo apt-get install python3-venv
 ```
 c.Spawner.default_url = '/lab'
 c.JupyterHub.ip = '0.0.0.0'
-c.JupyterHub.port = 8080
+c.JupyterHub.port = 80
 c.PAMAuthenticator.open_sessions = False
 c.Authenticator.admin_users = {'jupyter-admin'}
 c.LocalAuthenticator.create_system_users=True
