@@ -8,7 +8,7 @@ These are the steps I took to install JupyterHub, set up user accounts, and add 
 4. Run the following:
 ```
 sudo apt-get update
-sudo apt-get install python
+sudo apt-get install python3-venv
 ```
 5. Follow this [tutorial](https://jupyterhub.readthedocs.io/en/stable/installation-guide-hard.html). **NOTE**: there are several steps which require `sudo su` and will not work with a simple `sudo` from the base account. Make sure the following lines are in the config file:
 ```
