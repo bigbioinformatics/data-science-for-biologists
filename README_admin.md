@@ -34,6 +34,8 @@ sudo -i /opt/conda/lib/R/bin/R
 This should install the iRkernel system-wide:
 ```
 install.packages("IRkernel")
+old_path = Sys.getenv("PATH")
+Sys.setenv(PATH=paste(old_path, "/opt/conda/bin/", sep=":"))
 IRkernel::installspec()
 ```
 Need to be root for this next part:
