@@ -2,7 +2,7 @@
 
 These are the steps I took to install JupyterHub, set up user accounts, and add R language tools.
 
-1. Set up a virtual machine running Ubuntu 18.04. This was tested on an AWS EC2 instance of the t2.micro class.
+1. Set up a virtual machine running Ubuntu 18.04. This was tested on an AWS EC2 instance of the t2.medium class.
 2. Set permissions for internet traffic. On AWS EC2, this involves setting a security group and allowing inbound traffic on some ports (e.g., 80)
 3. ssh into the VM.
 4. Run the following:
